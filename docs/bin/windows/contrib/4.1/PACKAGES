@@ -7,3 +7,13 @@ Imports: raster, dplyr, data.table, sf, tidyr, spex, units, purrr,
 Suggests: testthat (>= 2.1.0), knitr, rmarkdown, tmap, tmaptools, ggplot2,
         fasterize, pfocal
 License: GPL-3 + file LICENSE
+
+Package: pfocal
+Version: 1.0.0
+Depends: R (>= 4.0.0)
+Imports: Rcpp, stats, methods
+LinkingTo: Rcpp
+Suggests: testthat (>= 3.0.0), starsExtra, raster, terra, covr, knitr,
+        rmarkdown, microbenchmark, stars
+License: GPL-3
+Archs: i386, x64
