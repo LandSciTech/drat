@@ -1,11 +1,11 @@
 Package: caribouMetrics
 Version: 0.1.1.9000
-Depends: R (>= 2.10)
+Depends: R (>= 3.5.0)
 Imports: raster, dplyr, data.table, sf, tidyr, spex, units, purrr,
         tidyselect, methods, exactextractr, matrixStats, simstudy,
-        truncdist, stars, rlang, rgdal
+        truncdist, stars, rlang, rgdal, terra
 Suggests: testthat (>= 2.1.0), knitr, rmarkdown, tmap, tmaptools, ggplot2,
-        fasterize, pfocal
+        fasterize
 License: GPL-3 + file LICENSE
 
 Package: pfocal
