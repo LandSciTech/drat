@@ -7,7 +7,7 @@ Imports: raster, dplyr, data.table, sf, tidyr, spex, units, purrr,
 Suggests: testthat (>= 2.1.0), knitr, rmarkdown, tmap, tmaptools, ggplot2,
         fasterize
 License: GPL-3 + file LICENSE
-MD5sum: 19fe79a1864969d1050808d88aff77df
+MD5sum: d9308c07f48c373077b309a0e8786c24
 NeedsCompilation: no
 
 Package: caribouMetrics
