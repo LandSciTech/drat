@@ -1,23 +1,33 @@
 Package: caribouMetrics
 Version: 0.1.1.9000
 Depends: R (>= 3.5.0)
-Imports: raster, dplyr, data.table, sf, tidyr, spex, units, purrr,
-        tidyselect, methods, exactextractr, matrixStats, simstudy,
-        truncdist, stars, rlang, rgdal, terra
-Suggests: testthat (>= 2.1.0), knitr, rmarkdown, tmap, tmaptools, ggplot2,
-        fasterize
+Imports: raster, dplyr, data.table, sf, tidyr, spex, units, purrr, tidyselect,
+         methods, exactextractr, matrixStats, simstudy, truncdist, stars, rlang,
+         rgdal, terra
+Suggests: testthat (>= 2.1.0), knitr, rmarkdown, tmap, tmaptools, ggplot2, fasterize
 License: GPL-3 + file LICENSE
 MD5sum: d9308c07f48c373077b309a0e8786c24
 NeedsCompilation: no
 
 Package: caribouMetrics
+Version: 0.1.1.9001
+Depends: R (>= 3.5.0)
+Imports: raster, dplyr, data.table, sf, tidyr, spex, units, purrr, tidyselect,
+         methods, exactextractr, matrixStats, simstudy, truncdist, stars, rlang,
+         rgdal, terra
+Suggests: testthat (>= 2.1.0), knitr, rmarkdown, tmap, tmaptools, ggplot2, fasterize
+License: GPL-3 + file LICENSE
+MD5sum: 301589bdd96c9a3334984b150aa1bb68
+NeedsCompilation: no
+
+Package: caribouMetrics
 Version: 0.1.1
 Depends: R (>= 3.5.0)
-Imports: raster, dplyr, data.table, sf, tidyr, spex, units, purrr,
-        tidyselect, methods, exactextractr, matrixStats, simstudy,
-        truncdist, stars, rlang, rgdal
-Suggests: testthat (>= 2.1.0), knitr, rmarkdown, tmap, tmaptools, ggplot2,
-        fasterize, pfocal
+Imports: raster, dplyr, data.table, sf, tidyr, spex, units, purrr, tidyselect,
+         methods, exactextractr, matrixStats, simstudy, truncdist, stars, rlang,
+         rgdal
+Suggests: testthat (>= 2.1.0), knitr, rmarkdown, tmap, tmaptools, ggplot2, fasterize,
+         pfocal
 License: GPL-3 + file LICENSE
 MD5sum: 34181f774277d71124186a3cb60f37f5
 NeedsCompilation: no
@@ -36,8 +46,8 @@ Version: 1.0.0
 Depends: R (>= 4.0.0)
 Imports: Rcpp, stats, methods
 LinkingTo: Rcpp
-Suggests: testthat (>= 3.0.0), starsExtra, raster, terra, covr, knitr,
-        rmarkdown, microbenchmark, stars
+Suggests: testthat (>= 3.0.0), starsExtra, raster, terra, covr, knitr, rmarkdown,
+         microbenchmark, stars
 License: GPL-3
 MD5sum: ed154898eaf856addcc393a8d0f19a8f
 NeedsCompilation: yes
